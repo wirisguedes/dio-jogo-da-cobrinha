@@ -1,0 +1,51 @@
+:root{
+ 
+    --preta: #4b4444;
+   
+   }
+
+  
+   .btn {
+
+    background: #0066A2;
+    
+    color: white;
+    
+    border-style: outset;
+    
+    border-color: #0066A2;
+    
+    height: 50px;
+    
+    width: 110px;
+    
+    font: bold 15px arial, sans-serif;
+    
+    text-shadow:none;
+
+   
+    
+    }
+
+  
+
+
+
+
+
+canvas{
+    border: 5px #1b1a1a solid;
+}
+
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background: var(--preta);
+}
